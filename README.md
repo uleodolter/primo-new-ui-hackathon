@@ -269,3 +269,21 @@ cd primo-explore-devenv/primo-explore/custom/ACC && npm install
 cd -
 ```
 
+### ACC/js/custom.js after step3.sh and gulp run
+
+```javascript
+(function(){
+"use strict";
+'use strict';
+
+/*
+ * load custom view
+ */
+var app = angular.module('viewCustom', ['angularLoad']);
+
+app.component('prmLogoAfter', {
+  bindings: {},
+  template: '<div class="hello-world"><span>Hello World</span></div>'
+});
+})();
+```
