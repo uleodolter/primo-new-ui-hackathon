@@ -287,3 +287,30 @@ app.component('prmLogoAfter', {
 });
 })();
 ```
+
+## Adding Links below Thumbnail
+
+- https://github.com/uleodolter/primo-explore-thumbnail-links-demo
+
+### Script step4.sh
+
+```script
+#!/bin/sh
+
+cat > primo-explore-devenv/primo-explore/custom/ACC/package.json <<EOF
+{
+    "name": "ACC",
+    "version": "0.0.1",
+    "description": "primo-explore ACC view demo",
+    "author": "Ulrich Leodolter <ulrich.leodolter@obvsg.at> (https://www.obvsg.at/)",
+    "license": "ISC",
+    "devDependencies": {
+        "primo-explore-hello-world-demo": "0.0.1",
+        "primo-explore-thumbnail-links-demo": "0.0.2"
+    }
+}
+EOF
+
+cd primo-explore-devenv/primo-explore/custom/ACC && npm install
+cd -
+```
