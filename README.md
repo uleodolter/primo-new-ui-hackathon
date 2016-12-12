@@ -156,6 +156,49 @@ Archive:  ACC-img-css.zip
   inflating: primo-explore-devenv/primo-explore/custom/ACC/css/app-colors.css
 ```
 
+## Third run
+
+```shell
+[ulrich@think primo-explore-devenv]$ gulp run --view ACC
+[22:46:17] Using gulpfile ~/PRIMO-New-UI-Hackathon/primo-explore-devenv/gulpfile.js
+[22:46:17] Starting 'connect:primo_explore'...
+[22:46:17] Finished 'connect:primo_explore' after 34 ms
+[22:46:17] Starting 'watch-js'...
+[22:46:17] Finished 'watch-js' after 7.76 ms
+[22:46:17] Starting 'watch-css'...
+[22:46:17] Finished 'watch-css' after 1.42 ms
+[22:46:17] Starting 'setup_watchers'...
+[22:46:17] Finished 'setup_watchers' after 823 μs
+[22:46:17] Starting 'custom-js'...
+[22:46:17] Starting 'custom-css'...
+[BS] Access URLs:
+ --------------------------------------
+       Local: http://localhost:8003
+    External: http://192.168.1.153:8003
+ --------------------------------------
+          UI: http://localhost:3001
+ UI External: http://192.168.1.153:3001
+ --------------------------------------
+[BS] Serving files from: primo-explore
+[22:46:18] Finished 'custom-js' after 1.15 s
+[22:46:18] Finished 'custom-css' after 1.14 s
+[22:46:18] Starting 'run'...
+[22:46:18] Finished 'run' after 25 μs
+[BS] Reloading Browsers...
+[BS] 1 file changed (custom1.css)
+custom/ACC
+{ viewJs: [ 'custom/ACC/js/custom.js' ],
+  centralJs: '',
+  viewCss: [ 'custom/ACC/css/custom1.css' ],
+  centralCss: '',
+  favIcon: [ 'custom/ACC/img/favicon.ico' ],
+  libraryLogo: 'custom/ACC/img/library-logo.png',
+  resourceIcons: {},
+  staticHtml: { homepage: { en_US: 'custom/ACC/html/home_en_US.html' } } }
+
+```
+
+
 ## Directory Structure of primo-explore-devenv/primo-explore/custom/ACC
 
 ```shell
