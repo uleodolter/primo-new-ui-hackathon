@@ -133,3 +133,56 @@ Error: Cannot find module 'through2'
  --------------------------------------
 [BS] Serving files from: primo-explore
 ```
+
+# Basic CSS Customization
+
+## Script step2.sh
+
+```script
+#!/bin/sh
+
+unzip -x -d primo-explore-devenv/primo-explore/custom/ ACC-img-css.zip
+```
+
+```shell
+[ulrich@think PRIMO-New-UI-Hackathon]$ ./step2.sh 
+Archive:  ACC-img-css.zip
+  inflating: primo-explore-devenv/primo-explore/custom/ACC/img/library-logo.png  
+  inflating: primo-explore-devenv/primo-explore/custom/ACC/img/primo-logo.png  
+  inflating: primo-explore-devenv/primo-explore/custom/ACC/img/bg_logo.jpg  
+  inflating: primo-explore-devenv/primo-explore/custom/ACC/img/favicon.ico  
+  inflating: primo-explore-devenv/primo-explore/custom/ACC/js/custom.module.js  
+  inflating: primo-explore-devenv/primo-explore/custom/ACC/css/zzz-colors.css  
+  inflating: primo-explore-devenv/primo-explore/custom/ACC/css/app-colors.css
+```
+
+## Directory Structure of primo-explore-devenv/primo-explore/custom/ACC
+
+```shell
+[ulrich@think custom]$ tree ACC
+ACC
+├── css
+│   ├── app-colors.css
+│   ├── custom1.css
+│   ├── README.md
+│   └── zzz-colors.css
+├── html
+│   ├── home_en_US.html
+│   └── README.md
+├── img
+│   ├── bg_logo.jpg
+│   ├── favicon.ico
+│   ├── library-logo.png
+│   ├── primo-logo.png
+│   └── README.md
+├── js
+│   ├── custom.js
+│   ├── custom.module.js
+│   └── README.md
+├── README.md
+└── showDirectives.txt
+```
+
+### custom1.css = app-colors.css + zzz-colors.css
+
+### custom.js =  function wrapper + custom.module.js
