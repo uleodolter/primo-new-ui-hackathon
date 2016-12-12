@@ -233,3 +233,39 @@ ACC
 
 ### custom-js
 - custom.js =  function wrapper + custom.module.js
+
+
+# Adding a Hello World Component
+
+## VIEW_CODE/showDirectives.txt Bookmarklet
+
+```
+javascript:(function(){var script=document.createElement("SCRIPT");script.src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js';script.type='text/javascript';document.getElementsByTagName("head")[0].appendChild(script);var checkReady=function(callback){if(window.jQuery){callback(jQuery)}else{window.setTimeout(function(){checkReady(callback)},100)}};checkReady(function($){$('primo-explore').find('*[parent-ctrl="ctrl"]').each(function(){$(this).append('<a href="#" title="'+$(this)[0].outerHTML.replace(/</g,'').replace(/>/g,'').replace(/\//g,'').replace(/"/g,'').replace(/parent-ctrl.*/g,'').replace(/-([a-z])/g,function(m,w){return w.toUpperCase()})+'" style="display:block;height:auto;color:black;">Hover for id</a>')})})})();
+```
+
+## Hello World Code
+
+- https://github.com/uleodolter/primo-explore-hello-world-demo
+
+### Script step3.sh
+
+```script
+#!/bin/sh
+
+cat > primo-explore-devenv/primo-explore/custom/ACC/package.json <<EOF
+{
+    "name": "ACC",
+    "version": "0.0.1",
+    "description": "primo-explore ACC view demo",
+    "author": "Ulrich Leodolter <ulrich.leodolter@obvsg.at> (https://www.obvsg.at/)",
+    "license": "ISC",
+    "devDependencies": {
+        "primo-explore-hello-world-demo": "0.0.1"
+    }
+}
+EOF
+
+cd primo-explore-devenv/primo-explore/custom/ACC && npm install
+cd -
+```
+
