@@ -226,6 +226,10 @@ ACC
 └── showDirectives.txt
 ```
 
-### custom1.css = app-colors.css + zzz-colors.css
+## Gulp Tasks
 
-### custom.js =  function wrapper + custom.module.js
+### custom-css
+- custom1.css = app-colors.css + zzz-colors.css
+
+### custom-js
+- custom.js =  function wrapper + custom.module.js
