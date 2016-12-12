@@ -1,6 +1,8 @@
 # primo-new-ui-hackathon
 PRIMO New UI Hackathon/Virtual Conference: Dec.12-Dec.16
 
+- http://e-nug.org/?p=697
+
 # Dec 13 Javascript customization – using hoverID/showDirectives, incorporating existing NPMs and understanding the MVC architecture used in Primo
 
 ## Before you start
