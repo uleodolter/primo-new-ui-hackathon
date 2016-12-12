@@ -288,11 +288,13 @@ app.component('prmLogoAfter', {
 })();
 ```
 
-## Adding Links below Thumbnail
+# Links below Thumbnail, a Simple Controller
+
+## Thumbnail Links Demo Code
 
 - https://github.com/uleodolter/primo-explore-thumbnail-links-demo
 
-### Script step4.sh
+## Script step4.sh
 
 ```script
 #!/bin/sh
