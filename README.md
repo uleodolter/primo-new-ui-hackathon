@@ -48,10 +48,14 @@
 
 # Before you start
 
+- Reserve some time
 - Learn Javascript
 - Get used to Git Tools and GitHub
-- Get used to NodeJS Tools and NPM 
+- Get used to NodeJS Tools and NPM
 - Get used to at least one Javascript Debugger (Browser)
+- Read Documentation 
+  https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/New_Primo_Interface
+  https://github.com/ExLibrisGroup/primo-explore-package/tree/master/VIEW_CODE
 
 # Installation of Primo New UI Development Environment on Linux
 
