@@ -1,9 +1,12 @@
-# primo-new-ui-hackathon
-PRIMO New UI Hackathon/Virtual Conference: Dec.12-Dec.16
+# PRIMO New UI Hackathon/Virtual Conference: Dec.12-Dec.16
 
 - http://e-nug.org/?p=697
 
-# Dec 13 Javascript customization – using hoverID/showDirectives, incorporating existing NPMs and understanding the MVC architecture used in Primo
+![show and tell](http://e-nug.org/wp-content/uploads/2016/11/showandtell_spinner.gif "show and tell")
+
+![obsvg](https://www.obvsg.at/typo3conf/ext/obvsg_template/Resources/Public/img/obvsg-logo.png "The Austrian Library Network and Service Ltd (OBVSG)")
+
+## Dec 13 Javascript customization – using hoverID/showDirectives, incorporating existing NPMs and understanding the MVC architecture used in Primo
 
 ## Before you start
 
