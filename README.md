@@ -14,7 +14,7 @@ PRIMO New UI Hackathon/Virtual Conference: Dec.12-Dec.16
 
 # Installation of Primo New UI Development Environment on Linux
 
-## Choose your favourite Linux
+## Choose your favorite Linux
 
 - Ubuntu
 - Fedora Core (used in this demo)
@@ -22,7 +22,7 @@ PRIMO New UI Hackathon/Virtual Conference: Dec.12-Dec.16
 
 ## Install latest nodejs 4.x and npm
 
-```shell
+```sh
 $ dnf install -y nodejs npm
 $ rpm -q npm nodejs
 npm-2.15.9-6.fc24.x86_64
@@ -31,14 +31,14 @@ nodejs-4.6.1-6.fc24.x86_64
 
 ## Install gulp
 
-```shell
+```sh
 cd ~/
 npm install gulp
 ```
 
 Ensure that glup is in your path, adjust ~/.bash_profile
 
-```shell
+```sh
 $ cat ~/.bash_profile 
 # .bash_profile
 
@@ -66,7 +66,7 @@ If your Linux Distribution does not include nodejs 4.x install from nodejs.org
 
 ### Script step1.sh
 
-```shell
+```sh
 #!/bin/sh
 
 git clone https://github.com/ExLibrisGroup/primo-explore-devenv.git
@@ -81,7 +81,7 @@ cd primo-explore-devenv && npm install
 
 ### First run
 
-```shell
+```sh
 [ulrich@think primo-explore-devenv]$ gulp run --view ACC
 module.js:327
     throw err;
@@ -102,13 +102,13 @@ Error: Cannot find module 'through2'
 
 ### Install missing node-modules
 
-```shell
+```sh
 [ulrich@think primo-explore-devenv]$ npm install through2 vinyl-sourcemaps-apply gulp-util
 ```
 
 ### Second run
 
-```shell
+```sh
 [ulrich@think primo-explore-devenv]$ gulp run --view ACC
 [22:21:58] Using gulpfile ~/PRIMO-New-UI-Hackathon/primo-explore-devenv/gulpfile.js
 [22:21:58] Starting 'connect:primo_explore'...
@@ -146,7 +146,7 @@ Error: Cannot find module 'through2'
 unzip -x -d primo-explore-devenv/primo-explore/custom/ ACC-img-css.zip
 ```
 
-```shell
+```sh
 [ulrich@think PRIMO-New-UI-Hackathon]$ ./step2.sh 
 Archive:  ACC-img-css.zip
   inflating: primo-explore-devenv/primo-explore/custom/ACC/img/library-logo.png  
@@ -160,7 +160,7 @@ Archive:  ACC-img-css.zip
 
 ## Third run
 
-```shell
+```sh
 [ulrich@think primo-explore-devenv]$ gulp run --view ACC
 [22:46:17] Using gulpfile ~/PRIMO-New-UI-Hackathon/primo-explore-devenv/gulpfile.js
 [22:46:17] Starting 'connect:primo_explore'...
@@ -203,7 +203,7 @@ custom/ACC
 
 ## Directory Structure of primo-explore-devenv/primo-explore/custom/ACC
 
-```shell
+```sh
 [ulrich@think custom]$ tree ACC
 ACC
 ├── css
@@ -247,13 +247,13 @@ ACC
 
 ## Find location for component - VIEW_CODE/showDirectives.txt Bookmarklet
 
-```
+```javscript
 javascript:(function(){var script=document.createElement("SCRIPT");script.src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js';script.type='text/javascript';document.getElementsByTagName("head")[0].appendChild(script);var checkReady=function(callback){if(window.jQuery){callback(jQuery)}else{window.setTimeout(function(){checkReady(callback)},100)}};checkReady(function($){$('primo-explore').find('*[parent-ctrl="ctrl"]').each(function(){$(this).append('<a href="#" title="'+$(this)[0].outerHTML.replace(/</g,'').replace(/>/g,'').replace(/\//g,'').replace(/"/g,'').replace(/parent-ctrl.*/g,'').replace(/-([a-z])/g,function(m,w){return w.toUpperCase()})+'" style="display:block;height:auto;color:black;">Hover for id</a>')})})})();
 ```
 
 ## Angular Scope - Enable Debug
 
-```
+```javascript
 javascript:(function() { angular.reloadWithDebugInfo(); })();
 ```
 
@@ -263,7 +263,7 @@ javascript:(function() { angular.reloadWithDebugInfo(); })();
 
 ### Script step3.sh
 
-```script
+```sh
 #!/bin/sh
 
 cat > primo-explore-devenv/primo-explore/custom/ACC/package.json <<EOF
@@ -310,7 +310,7 @@ app.component('prmLogoAfter', {
 
 ## Script step4.sh
 
-```script
+```sh
 #!/bin/sh
 
 cat > primo-explore-devenv/primo-explore/custom/ACC/package.json <<EOF
@@ -339,7 +339,7 @@ cd -
 
 ## Script step5.sh
 
-```script
+```sh
 #!/bin/sh
 
 cat > primo-explore-devenv/primo-explore/custom/ACC/package.json <<EOF
@@ -365,7 +365,7 @@ cd -
 
 ## Script step6.sh
 
-```script
+```sh
 #!/bin/sh
 
 cd primo-explore-devenv
@@ -376,7 +376,7 @@ cd -
 ## Content of ACC.zip Package
 
 
-```shell
+```sh
 $ unzip -vl primo-explore-devenv/packages/ACC.zip 
 Archive:  primo-explore-devenv/packages/ACC.zip
  Length   Method    Size  Cmpr    Date    Time   CRC-32   Name
