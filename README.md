@@ -354,3 +354,40 @@ EOF
 cd primo-explore-devenv/primo-explore/custom/ACC && npm install
 cd -
 ```
+
+# Create Package
+
+## Script step6.sh
+
+```script
+#!/bin/sh
+
+cd primo-explore-devenv
+gulp create-package
+cd -
+```
+
+## Content of ACC.zip Package
+
+
+```shell
+$ unzip -vl primo-explore-devenv/packages/ACC.zip 
+Archive:  primo-explore-devenv/packages/ACC.zip
+ Length   Method    Size  Cmpr    Date    Time   CRC-32   Name
+--------  ------  ------- ---- ---------- ----- --------  ----
+       0  Stored        0   0% 12-12-2016 23:22 00000000  ACC/
+       0  Stored        0   0% 12-12-2016 21:56 00000000  ACC/html/
+     868  Defl:N      489  44% 12-12-2016 21:56 d43f0fc4  ACC/html/README.md
+    2160  Defl:N      598  72% 12-12-2016 21:56 69737fd8  ACC/html/home_en_US.html
+       0  Stored        0   0% 12-12-2016 22:43 00000000  ACC/img/
+     480  Defl:N      257  47% 12-12-2016 21:56 164124f5  ACC/img/README.md
+     381  Defl:N      217  43% 09-04-2016 10:39 cb7dcffa  ACC/img/bg_logo.jpg
+   10990  Defl:N     3376  69% 04-23-2015 00:39 3b08aecf  ACC/img/favicon.ico
+    4155  Defl:N     4021   3% 11-06-2016 19:58 8093eec2  ACC/img/library-logo.png
+   11191  Defl:N    11147   0% 09-04-2016 10:38 2609d0d7  ACC/img/primo-logo.png
+   15199  Defl:N     2702  82% 12-12-2016 23:22 00998ba5  ACC/css/custom1.css
+    5004  Defl:N     1680  66% 12-12-2016 23:22 0ba86d36  ACC/js/custom.js
+--------          -------  ---                            -------
+   50428            24487  51%                            12 files
+``` 
+
