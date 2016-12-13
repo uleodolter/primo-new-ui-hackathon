@@ -8,8 +8,8 @@ PRIMO New UI Hackathon/Virtual Conference: Dec.12-Dec.16
 ## Before you start
 
 - Learn Javascript
-- Get used to Git Tools
-- Get used to NodeJS Tools
+- Get used to Git Tools and GitHub
+- Get used to NodeJS Tools and NPM 
 - Get used to at least one Javascript Debugger (Browser)
 
 # Installation of Primo New UI Development Environment on Linux
