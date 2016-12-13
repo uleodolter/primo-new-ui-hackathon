@@ -4,7 +4,7 @@
 
 ![show and tell](http://e-nug.org/wp-content/uploads/2016/11/showandtell_spinner.gif "show and tell")
 
-<div style="float:right;" markdown="1">
+<div style="float:right">
 ![obsvg](https://www.obvsg.at/typo3conf/ext/obvsg_template/Resources/Public/img/obvsg-logo.png "The Austrian Library Network and Service Ltd (OBVSG)")
 </div>
 
