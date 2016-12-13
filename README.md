@@ -2,9 +2,8 @@
 
 - http://e-nug.org/?p=697
 
-![show and tell](http://e-nug.org/wp-content/uploads/2016/11/showandtell_spinner.gif "show and tell")
-
-![obsvg](https://www.obvsg.at/typo3conf/ext/obvsg_template/Resources/Public/img/obvsg-logo.png "The Austrian Library Network and Service Ltd (OBVSG)") { float:right; }
+<img src="http://e-nug.org/wp-content/uploads/2016/11/showandtell_spinner.gif" alt="show and tell" title="show and tell"/>
+<img src="https://www.obvsg.at/typo3conf/ext/obvsg_template/Resources/Public/img/obvsg-logo.png" alt="obvsg-logo" title="The Austrian Library Network and Service Ltd (OBVSG)" align="right"/>
 
 ## Dec 13 Javascript customization – using hoverID/showDirectives, incorporating existing NPMs and understanding the MVC architecture used in Primo
 
