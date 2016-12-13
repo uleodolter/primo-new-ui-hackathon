@@ -7,7 +7,7 @@
 
 <!-- toc -->
 
-  * [Dec 13 Javascript customization – using hoverID/showDirectives, incorporating existing NPMs and understanding the MVC architecture used in Primo](#dec-13-javascript-customization-%E2%80%93-using-hoveridshowdirectives-incorporating-existing-npms-and-understanding-the-mvc-architecture-used-in-primo)
+- [Dec 13 Javascript customization – using hoverID/showDirectives, incorporating existing NPMs and understanding the MVC architecture used in Primo](#dec-13-javascript-customization-%E2%80%93-using-hoveridshowdirectives-incorporating-existing-npms-and-understanding-the-mvc-architecture-used-in-primo)
   * [Before you start](#before-you-start)
 - [Installation of Primo New UI Development Environment on Linux](#installation-of-primo-new-ui-development-environment-on-linux)
   * [Choose your favorite Linux](#choose-your-favorite-linux)
@@ -45,7 +45,7 @@
 
 <!-- tocstop -->
 
-## Dec 13 Javascript customization – using hoverID/showDirectives, incorporating existing NPMs and understanding the MVC architecture used in Primo
+# Dec 13 Javascript customization – using hoverID/showDirectives, incorporating existing NPMs and understanding the MVC architecture used in Primo
 
 ## Before you start
 
