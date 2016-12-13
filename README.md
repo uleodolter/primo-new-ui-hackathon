@@ -237,6 +237,18 @@ ACC
 - custom.js =  function wrapper + custom.module.js
 
 
+# AngularJS Conceptual Overview
+
+Before your start coding try to understand the concepts behind.
+
+- https://docs.angularjs.org/guide/concepts
+
+AngjularJS follows the Model View Controler design pattern.
+
+- Model: your data (e.g. Data Service via REST API)
+- View: what the users sees (the DOM)
+- Controller: the business logic behind views, interacts with your Model
+
 # Adding a Hello World Component
 
 ## AngularJS Component
