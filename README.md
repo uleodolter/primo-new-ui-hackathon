@@ -5,9 +5,10 @@
 <img src="http://e-nug.org/wp-content/uploads/2016/11/showandtell_spinner.gif" alt="show and tell" title="show and tell"/>
 <img src="https://www.obvsg.at/typo3conf/ext/obvsg_template/Resources/Public/img/obvsg-logo.png" alt="obvsg-logo" title="The Austrian Library Network and Service Ltd (OBVSG)" align="right"/>
 
+# Dec 13 Javascript customization – using hoverID/showDirectives, incorporating existing NPMs and understanding the MVC architecture used in Primo
+
 <!-- toc -->
 
-- [Dec 13 Javascript customization – using hoverID/showDirectives, incorporating existing NPMs and understanding the MVC architecture used in Primo](#dec-13-javascript-customization-%E2%80%93-using-hoveridshowdirectives-incorporating-existing-npms-and-understanding-the-mvc-architecture-used-in-primo)
   * [Before you start](#before-you-start)
 - [Installation of Primo New UI Development Environment on Linux](#installation-of-primo-new-ui-development-environment-on-linux)
   * [Choose your favorite Linux](#choose-your-favorite-linux)
@@ -44,8 +45,6 @@
   * [Content of ACC.zip Package](#content-of-acczip-package)
 
 <!-- tocstop -->
-
-# Dec 13 Javascript customization – using hoverID/showDirectives, incorporating existing NPMs and understanding the MVC architecture used in Primo
 
 ## Before you start
 
