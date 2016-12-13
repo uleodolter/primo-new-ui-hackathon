@@ -5,6 +5,46 @@
 <img src="http://e-nug.org/wp-content/uploads/2016/11/showandtell_spinner.gif" alt="show and tell" title="show and tell"/>
 <img src="https://www.obvsg.at/typo3conf/ext/obvsg_template/Resources/Public/img/obvsg-logo.png" alt="obvsg-logo" title="The Austrian Library Network and Service Ltd (OBVSG)" align="right"/>
 
+<!-- toc -->
+
+  * [Dec 13 Javascript customization – using hoverID/showDirectives, incorporating existing NPMs and understanding the MVC architecture used in Primo](#dec-13-javascript-customization-%E2%80%93-using-hoveridshowdirectives-incorporating-existing-npms-and-understanding-the-mvc-architecture-used-in-primo)
+  * [Before you start](#before-you-start)
+- [Installation of Primo New UI Development Environment on Linux](#installation-of-primo-new-ui-development-environment-on-linux)
+  * [Choose your favorite Linux](#choose-your-favorite-linux)
+  * [Install latest nodejs 4.x and npm](#install-latest-nodejs-4x-and-npm)
+  * [Install gulp](#install-gulp)
+  * [Clone primo-explore-devenv and package from github](#clone-primo-explore-devenv-and-package-from-github)
+    + [Script step1.sh](#script-step1sh)
+    + [First run](#first-run)
+    + [Install missing node-modules](#install-missing-node-modules)
+    + [Second run](#second-run)
+- [Basic CSS Customization](#basic-css-customization)
+  * [Script step2.sh](#script-step2sh)
+  * [Third run](#third-run)
+  * [Directory Structure of primo-explore-devenv/primo-explore/custom/ACC](#directory-structure-of-primo-explore-devenvprimo-explorecustomacc)
+  * [Gulp Tasks](#gulp-tasks)
+    + [custom-css](#custom-css)
+    + [custom-js](#custom-js)
+- [AngularJS Conceptual Overview](#angularjs-conceptual-overview)
+- [Adding a Hello World Component](#adding-a-hello-world-component)
+  * [AngularJS Component](#angularjs-component)
+  * [Find location for component - VIEW_CODE/showDirectives.txt Bookmarklet](#find-location-for-component---view_codeshowdirectivestxt-bookmarklet)
+  * [Hello World Code](#hello-world-code)
+    + [Script step3.sh](#script-step3sh)
+    + [ACC/js/custom.js after step3.sh and gulp run](#accjscustomjs-after-step3sh-and-gulp-run)
+- [Links below Thumbnail, a Simple Controller](#links-below-thumbnail-a-simple-controller)
+  * [Thumbnail Links Demo Code](#thumbnail-links-demo-code)
+  * [Inspecting Angular Scope - Enable Debug](#inspecting-angular-scope---enable-debug)
+  * [Script step4.sh](#script-step4sh)
+- [Google Books Preview Button, consume external data service](#google-books-preview-button-consume-external-data-service)
+  * [Google Books Preview Demo Code](#google-books-preview-demo-code)
+  * [Script step5.sh](#script-step5sh)
+- [Create Package](#create-package)
+  * [Script step6.sh](#script-step6sh)
+  * [Content of ACC.zip Package](#content-of-acczip-package)
+
+<!-- tocstop -->
+
 ## Dec 13 Javascript customization – using hoverID/showDirectives, incorporating existing NPMs and understanding the MVC architecture used in Primo
 
 ## Before you start
@@ -410,5 +450,4 @@ Archive:  primo-explore-devenv/packages/ACC.zip
     5004  Defl:N     1680  66% 12-12-2016 23:22 0ba86d36  ACC/js/custom.js
 --------          -------  ---                            -------
    50428            24487  51%                            12 files
-``` 
-
+```
