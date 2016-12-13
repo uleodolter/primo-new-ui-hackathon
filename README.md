@@ -9,7 +9,7 @@
 
 <!-- toc -->
 
-  * [Before you start](#before-you-start)
+- [Before you start](#before-you-start)
 - [Installation of Primo New UI Development Environment on Linux](#installation-of-primo-new-ui-development-environment-on-linux)
   * [Choose your favorite Linux](#choose-your-favorite-linux)
   * [Install latest nodejs 4.x and npm](#install-latest-nodejs-4x-and-npm)
@@ -46,7 +46,7 @@
 
 <!-- tocstop -->
 
-## Before you start
+# Before you start
 
 - Learn Javascript
 - Get used to Git Tools and GitHub
